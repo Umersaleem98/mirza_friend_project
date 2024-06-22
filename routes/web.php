@@ -7,9 +7,13 @@ use App\Http\Controllers\StudentController;
 
 
 Route::get('/', [HomeController::class, 'index']);
-Route::get('dashboard', [AdminController::class, 'index']);
+// Route::get('dashboard', [AdminController::class, 'index']);
+Route::get('dashboard', [AdminController::class, 'index'])->middleware(['auth', 'session.expired']);
 
-Route::get('login', [AdminController::class, 'login']);
+Route::get('login', [AdminController::class, 'showLoginForm']);
+Route::post('login', [AdminController::class, 'login']);
+Route::get('logout', [AdminController::class, 'logout']);
+
 
 
 Route::get('student_list', [StudentController::class, 'index']);

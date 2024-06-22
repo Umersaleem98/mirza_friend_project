@@ -130,7 +130,7 @@
               <!-- Income and Express -->
               <div class="card card-default">
                 <div class="card-header">
-                  <h2>Income And Expenses</h2>
+                  <h2>Total students</h2>
 
 
                 </div>
