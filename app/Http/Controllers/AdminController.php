@@ -34,8 +34,18 @@ class AdminController extends Controller
             'password' => 'required|string',
         ]);
 
-        if (Auth::attempt($request->only('email', 'password'))) {
-            return redirect('dashboard');
+        $credentials = $request->only('email', 'password');
+
+        if (Auth::attempt($credentials)) {
+            $user = Auth::user();
+
+            if ($user->is_approved == 1) {
+                return redirect('dashboard');
+            } else {
+                return back()->withErrors([
+                    'email' => 'This user is not approved yet.',
+                ]);
+            }
         }
 
         return back()->withErrors([

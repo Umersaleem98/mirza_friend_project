@@ -42,12 +42,9 @@
                                             <tr>
                                                 <th>Id</th>
                                                 <th>Name</th>
-                                                <th>Gender</th>
-                                                <th>Age</th>
-                                                <th>City</th>
-                                                <th>Province/State</th>
-                                                <th>Employment Status</th>
-                                                <th>Degree Level</th>
+                                                <th>Email</th>
+                                                <th>User Type</th>
+                                                <th>Status</th>
                                                 @if(Auth::user()->user_type != 'user')
                                                 <th>Update</th>
                                                 <th>Delete</th>
@@ -55,22 +52,19 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            @foreach($students as $student)
+                                            @foreach($users as $user)
                                             <tr>
-                                                <td>{{ $student->id }}</td>
-                                                <td>{{ $student->name }}</td>
-                                                <td>{{ $student->gender }}</td>
-                                                <td>{{ $student->age }}</td>
-                                                <td>{{ $student->city }}</td>
-                                                <td>{{ $student->province_state }}</td>
-                                                <td>{{ $student->employment_status }}</td>
-                                                <td>{{ $student->degree_level }}</td>
+                                                <td>{{ $user->id }}</td>
+                                                <td>{{ $user->name }}</td>
+                                                <td>{{ $user->email }}</td>
+                                                <td>{{ $user->user_type }}</td>
+                                                <td>{{ $user->is_approved }}</td>
                                                 @if(Auth::user()->user_type != 'user')
                                                 <td>
-                                                    <a href="{{ url('students_edit', $student->id) }}" class="btn btn-primary btn-sm">Update</a>
+                                                    <a href="{{ url('students_edit', $user->id) }}" class="btn btn-primary btn-sm">Update</a>
                                                 </td>
                                                 <td>
-                                                    <a href="{{ url('students_destroy', $student->id) }}" class="btn btn-danger btn-sm">Delete</a>
+                                                    <a href="{{ url('students_destroy', $user->id) }}" class="btn btn-danger btn-sm">Delete</a>
                                                 </td>
                                                 @else
                                                 <td></td>
