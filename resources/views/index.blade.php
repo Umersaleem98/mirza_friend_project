@@ -21,14 +21,9 @@
 				<div class="block">
 					<div class="section-title">
 						<h2>About Us</h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-							blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+						<p>Welcome to Student Demographics Hub, your one-stop destination for exploring and understanding the diverse demographics of students across the globe.</p>
 					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-						dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-						ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-						nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-						anim id </p>
+					<p>We believe in the power of data to drive informed decisions and enhance educational experiences. Our platform is designed to provide comprehensive insights into student demographics, helping educators, policymakers, and researchers make informed choices and create impactful strategies. </p>
 				</div>
 			</div><!-- .col-md-7 close -->
 			<div class="col-md-5">
@@ -45,16 +40,10 @@
     <div class="row justify-content-end">
       <div class="col-md-6">
         <h2 class="section-subtitle">WE BELIEVE IN GREAT IDEAS</h2>
-        <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce
-          dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+        <p>At Student Demographics Hub, we are driven by a passion for great ideas that transform education. Our team of experts is dedicated to designing delightful digital experiences that make exploring student demographics intuitive and insightful. Whether you're a school administrator, a researcher, or a curious individual, our platform offers valuable data presented in engaging formats to facilitate understanding and decision-making.
         </p>
-        <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce
-          dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-        </p>
-        <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce
-          dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-        </p>
-        <a href="portfolio.html" class="btn btn-view-works">View Works</a>
+
+        <a href="#" class="btn btn-view-works">View Works</a>
       </div>
     </div>
   </div>
@@ -75,6 +64,23 @@
 		</div>
 	</div>
 </section>
+
+
+<section class="feature bg-2">
+    <div class="container">
+      <div class="row justify-content-end">
+        <div class="col-md-6">
+          <h2 class="section-subtitle">Why Choose Student Demographics Hub:</h2>
+
+          <li>Data Accuracy: We prioritize data accuracy and reliability, ensuring that you get the most accurate insights for informed decision-making.</li>
+          <li>Innovative Solutions: We constantly innovate to bring you the latest tools and technologies for a seamless user experience and insightful data exploration.</li>
+          <li>Dedicated Support: Our team is here to support you every step of the way, providing assistance and guidance to make the most of our platform.</li>
+<br>
+          <a href="#" class="btn btn-view-works">View Works</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 <!-- footer Start -->
