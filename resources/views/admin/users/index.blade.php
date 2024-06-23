@@ -48,8 +48,11 @@
                                                 @if(Auth::user()->user_type != 'user')
                                                 <th>Update</th>
                                                 <th>Delete</th>
+<<<<<<< HEAD
                                                 <th>Approve</th>
                                                 <th>Reject</th>
+=======
+>>>>>>> f9a658b4dee182baaaef3e5fe20760fedffee072
                                                 @endif
                                             </tr>
                                         </thead>
@@ -63,6 +66,7 @@
                                                 <td>{{ $user->is_approved }}</td>
                                                 @if(Auth::user()->user_type != 'user')
                                                 <td>
+<<<<<<< HEAD
                                                     <a href="{{ url('user_edit', $user->id) }}" class="btn btn-primary btn-sm">Update</a>
                                                 </td>
                                                 <td>
@@ -79,12 +83,21 @@
                                                         @csrf
                                                         <button type="submit" class="btn btn-warning btn-sm">Reject</button>
                                                     </form>
+=======
+                                                    <a href="{{ url('students_edit', $user->id) }}" class="btn btn-primary btn-sm">Update</a>
+                                                </td>
+                                                <td>
+                                                    <a href="{{ url('students_destroy', $user->id) }}" class="btn btn-danger btn-sm">Delete</a>
+>>>>>>> f9a658b4dee182baaaef3e5fe20760fedffee072
                                                 </td>
                                                 @else
                                                 <td></td>
                                                 <td></td>
+<<<<<<< HEAD
                                                 <td></td>
                                                 <td></td>
+=======
+>>>>>>> f9a658b4dee182baaaef3e5fe20760fedffee072
                                                 @endif
                                             </tr>
                                             @endforeach
