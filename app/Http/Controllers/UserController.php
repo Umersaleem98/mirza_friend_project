@@ -41,7 +41,6 @@ class UserController extends Controller
         return redirect()->back()->with('success', 'User registered successfully');
     }
 
-<<<<<<< HEAD
     public function edit($id)
     {
         $users = User::find($id);
@@ -113,8 +112,4 @@ public function reject($id)
     // Redirect back with an error message if the user was not found
     return redirect()->back()->with('error', 'User not found.');
 }
-
-
-=======
->>>>>>> f9a658b4dee182baaaef3e5fe20760fedffee072
 }

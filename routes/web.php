@@ -30,9 +30,7 @@ Route::post('user_store', [UserController::class, 'store']);
 Route::get('user_edit/{id}', [UserController::class, 'edit']);
 Route::post('user_update/{id}', [UserController::class, 'update']);
 Route::get('user_destroy/{id}', [UserController::class, 'destroy']);
-<<<<<<< HEAD
+
 // routes/web.php
 Route::post('user_approve/{id}', [UserController::class, 'approve']);
 Route::post('users_reject/{id}', [UserController::class, 'reject']);
-=======
->>>>>>> f9a658b4dee182baaaef3e5fe20760fedffee072

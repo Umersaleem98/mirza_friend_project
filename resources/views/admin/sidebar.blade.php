@@ -14,7 +14,7 @@
                 <li class="active">
                     <a class="sidenav-item-link" href="{{url('dashboard')}}">
                         <i class="mdi mdi-briefcase-account-outline"></i>
-                        <span class="nav-text">Business Dashboard</span>
+                        <span class="nav-text">Student Dashboard</span>
                     </a>
                 </li>
                 <li class="section-title">
